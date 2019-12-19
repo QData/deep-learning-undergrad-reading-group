@@ -1,1 +1,3 @@
 theme: jekyll-theme-cayman
+title: Deep Learning Undergraduate Reading Group
+permalink: /posts/:title # to style URLs like /posts/the-name-of-the-post.html
