@@ -21,3 +21,12 @@ Week 6 (2019-11-17): DNN C6 (Slides, by Alan Zheng)
 
 Week 7 (2019-12-01): [“The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks”](https://arxiv.org/abs/1803.03635) (Slides, by Jack Morris)
 
+# Readings List
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
