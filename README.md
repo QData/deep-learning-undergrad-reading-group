@@ -1,5 +1,7 @@
 ## Deep Learning Undergrad Reading Group
 
+[Github Pages Link](https://qdata.github.io/deep-learning-undergrad-reading-group/)
+
 ### How to add your notes to the site
 
 To add your notes to the site, (1) make a file in the `_posts` subdirectory
