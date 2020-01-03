@@ -1,9 +1,28 @@
-{% for page in site.pages %}
-  {% unless page.name == '404.md' %}
-    {% if page.title %}
-      <li class='c-nav__item' role='presentation'>
-        <a class='c-nav__link' href='{{ page.url | prepend: site.baseurl }}'>{{ page.title }}</a>
-      </li>
-    {% endif %}
-  {% endunless %}
-{% endfor %}
+{% if site.pages %}
+  <div style="margin-top: 24px">
+  {% for page in site.pages %}
+    {% unless page.name == '404.md' %}
+      {% if page.title %}
+        <li class='c-nav__item' role='presentation'>
+          <a class='c-nav__link' href='{{ page.url | prepend: site.baseurl }}'
+            style="font-size: 18px; font-weight: 500; line-height: 22px; margin-bottom: 8px">{{ page.title }}</a>
+        </li>
+      {% endif %}
+    {% endunless %}
+  {% endfor %}
+</div>
+{% endif %}
+<hr>
+{% if site.posts %}
+  <h3 style="margin: 12px 0"> Posts </h3>
+  {% for page in site.posts %}
+    {% unless page.name == '404.md' %}
+      {% if page.title %}
+        <li class='c-nav__item' role='presentation'>
+          <a class='c-nav__link' href='{{ page.url | prepend: site.baseurl }}'
+            style="line-height: 22px; margin-bottom: 8px">{{ page.title }}</a>
+        </li>
+      {% endif %}
+    {% endunless %}
+  {% endfor %}
+{% endif %}

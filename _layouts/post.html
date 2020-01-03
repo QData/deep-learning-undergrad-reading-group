@@ -23,11 +23,11 @@ layout: default
           {{ content }}
           {% if page.notes %}
             <b>notes/{{ page.notes }}</b>
-            <object class="frame" data="/notes/{{page.notes}}" type="application/pdf">
+            <object style="width: 100%" class="frame" data="/notes/{{page.notes}}" type="application/pdf">
               <iframe src="https://docs.google.com/viewer?url=/notes/{{page.notes}}&embedded=true"></iframe>
             </object>
           {% else %}
-            <b style="color:red"> TODO: </b> filler text about how we don't have notes yet 
+            <b style="color:red"> TODO: </b> filler text about how we don't have notes yet
           {% endif %}
           <br>
 
@@ -41,7 +41,8 @@ layout: default
 
         <hr>
 
-        {% include disqus.html %}
+        <!-- uncomment to include disqus! -->
+        <!-- {% include disqus.html %} -->
 
       </article>
     </div>

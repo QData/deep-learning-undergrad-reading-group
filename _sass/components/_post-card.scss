@@ -18,13 +18,24 @@
   }
 
   &__title {
-    margin-bottom: half($font-size-base);
+    // margin-bottom: half($font-size-base);
     font-size: $font-size-base;
     font-weight: $font-weight-bold;
     transition: $global-transition;
+    margin-bottom: 8px;
 
     @include mq($from: tablet) {
       font-size: double($font-size-small);
+    }
+  }
+
+  &__subtitle {
+    margin-bottom: half($font-size-base);
+    font-size: $font-size-medium;
+    color: gray;
+
+    @include mq($from: tablet) {
+      font-size: $font-size-small;
     }
   }
 
