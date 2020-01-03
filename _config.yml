@@ -3,7 +3,6 @@ permalink: /posts/:title # to style URLs like /posts/the-name-of-the-post.html
 
 plugins:
   - jekyll-paginate
-  - jekyll-tagging
   - jekyll-seo-tag
 
 include:

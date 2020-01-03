@@ -36,6 +36,7 @@ layout: default
 
         <div class='c-tags'>
           {% for tag in page.tags %}
+            {% capture tag_name %} {{ tag }} {% endcapture %}
             <a href='{{ site.baseurl }}/tag/{{ tag }}'>{{ tag }}</a>
           {% endfor %}
         </div>
