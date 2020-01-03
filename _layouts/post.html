@@ -23,8 +23,14 @@ layout: default
           {{ content }}
           {% if page.notes %}
             <b>notes/{{ page.notes }}</b>
-            <object style="width: 100%" class="frame" data="/notes/{{page.notes}}" type="application/pdf">
-              <iframe src="https://docs.google.com/viewer?url=/notes/{{page.notes}}&embedded=true"></iframe>
+            <object style="width: 100%" class="frame" data="" type="application/pdf">
+              <iframe src="https://docs.google.com/viewer?url=../notes/{{page.notes}}&embedded=true"></iframe>
+            </object>
+            <object width="400" height="500" type="application/pdf" data="../notes/{{page.notes}}">
+              <p>Error! Looks like your browser can't displa PDFs. Try using an updated version of Chrome or Firefox.</p>
+            </object>
+            <object data="../notes/{{page.notes}}" type="application/pdf">
+                <embed src="../notes/{{page.notes}}" type="application/pdf" />
             </object>
           {% else %}
             <b style="color:red"> TODO: </b> filler text about how we don't have notes yet
