@@ -1,10 +1,10 @@
-theme: jekyll-theme-cayman
 title: QData Deep Learning Undergraduate Reading Group
 permalink: /posts/:title # to style URLs like /posts/the-name-of-the-post.html
 
 plugins:
   - jekyll-paginate
-  - jekyll/tagging
+  - jekyll-tagging
+  - jekyll-seo-tag
 
 include:
   - _pages
