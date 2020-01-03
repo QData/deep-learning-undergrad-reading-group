@@ -3,7 +3,7 @@ title: "How the backpropagation algorithm works"
 subtitle: <i>Neural Networks and Deep Learning</i>, Chapter 2
 week: 2
 date: 2019-10-12
-tags: neural-networks, neurons
+tags: neural-networks neurons
 author: Eli Lifland
 notes: week02-dnn-backprop-lifland.pdf
 layout: post

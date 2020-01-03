@@ -3,7 +3,7 @@ week: 6
 title: "Overview of Deep Learning"
 subtitle: <i>Neural Networks and Deep Learning</i>, Chapter 6
 date: 2019-11-10
-tags: neural-networks, neurons
+tags: neural-networks neurons
 author: Alan Zheng
 layout: post
 ---

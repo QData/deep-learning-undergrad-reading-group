@@ -1,3 +1,27 @@
 theme: jekyll-theme-cayman
 title: QData Deep Learning Undergraduate Reading Group
 permalink: /posts/:title # to style URLs like /posts/the-name-of-the-post.html
+
+plugins:
+  - jekyll-paginate
+  - jekyll/tagging
+
+include:
+  - _pages
+
+exclude:
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+
+# Tags
+tag_page_dir:         tag
+tag_page_layout:      tag_page
+tag_permalink_style:  pretty
+
+# Pages path
+defaults:
+  - scope:
+      path: '_pages'
+    values:
+      permalink: /:basename:output_ext

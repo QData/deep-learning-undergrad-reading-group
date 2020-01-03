@@ -1,11 +1,8 @@
 ---
+title: About Our Group
 layout: page
-title: About
-image: '/images/pages/about.jpeg'
 ---
 
-You love Minimalism, and you also love writing, Type is designed for you. Type focus on showing your content in a clean and simple way, focus on images, typography, and white space.
+We are part of the QData lab at the University of Virginia under [Professor Yanjun Qi](https://www.cs.virginia.edu/yanjun/). We noticed a lack of helpful online resources for undergraduates getting started in deep learning research and decided to forge our own path. We meet weekly to discuss an interesting research paper selected from a range of topics, from general deep learning, computer vision, and natural language processing.
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
-
-Lorem ipsum dolor sit amet, vix ut case porro facilisis, alia possit neglegentur vis te. Has cu eirmod abhorreant, vel civibus efficiantur cu. Eu summo elitr vix, iusto putant maluisset per ut, ne etiam vivendum adipisci vel. Vis omnis tempor accusam ei, justo perpetua liberavisse cu qui. Saperet aliquando adipiscing ius ne, ne facer euripidis est. Pro mundi nostrum suavitate et.
+**UVA Students**: Please reach out to [Jack Morris](mailto:jm8wx@virginia.edu) if you're interested in joining the group. We welcome new members regardless of experience level. We're happy to point you to resources to help you get up to speed.

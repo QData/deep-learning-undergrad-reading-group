@@ -3,7 +3,7 @@ title: "The Universal Approximation Theorem"
 subtitle: <i>Neural Networks and Deep Learning</i>, Chapter 4
 date: 2019-11-03
 week: 4
-tags: neural-networks, neurons
+tags: neural-networks neurons
 author: Kevin Ivey
 layout: post
 ---

@@ -3,7 +3,7 @@ week: 5
 title: "Training Deep Neural Networks"
 subtitle: <i>Neural Networks and Deep Learning</i>, Chapter 5
 date: 2019-11-10
-tags: neural-networks, neurons
+tags: neural-networks neurons
 notes: week05-training-dnns-morris.pdf
 author: Jack Morris
 layout: post
