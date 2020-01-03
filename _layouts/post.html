@@ -10,7 +10,7 @@ layout: default
 
 <div class='o-wrapper'>
   <div class='o-grid'>
-    <div class='o-grid__col'>
+    <div class='o-grid__col' style='width: 100%'>
       <article class='c-post' itemscope itemtype='http://schema.org/BlogPosting'>
 
         <h1 class='c-post__title u-text-center'>{{ page.title }}</h1>
@@ -22,15 +22,9 @@ layout: default
 
           {{ content }}
           {% if page.notes %}
-            <b>notes/{{ page.notes }}</b>
-            <object style="width: 100%" class="frame" data="" type="application/pdf">
-              <iframe src="https://docs.google.com/viewer?url=../notes/{{page.notes}}&embedded=true"></iframe>
-            </object>
-            <object width="400" height="500" type="application/pdf" data="../notes/{{page.notes}}">
-              <p>Error! Looks like your browser can't displa PDFs. Try using an updated version of Chrome or Firefox.</p>
-            </object>
-            <object data="../notes/{{page.notes}}" type="application/pdf">
-                <embed src="../notes/{{page.notes}}" type="application/pdf" />
+            <pre>{{ '/notes/' | append: page.notes | relative_url }}</pre>
+            <object width="400" height="500" type="application/pdf" data="{{ '/notes/' | append: page.notes | relative_url }}">
+              <p>Error! Looks like your browser can't display PDFs. Try using an updated version of Chrome or Firefox.</p>
             </object>
           {% else %}
             <b style="color:red"> TODO: </b> filler text about how we don't have notes yet
