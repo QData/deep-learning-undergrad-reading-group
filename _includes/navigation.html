@@ -1,3 +1,5 @@
+<!-- Pages -->
+
 {% if site.pages %}
   <div style="margin-top: 24px">
   {% for page in site.pages %}
@@ -12,8 +14,10 @@
   {% endfor %}
 </div>
 {% endif %}
-<hr>
+
+<!-- Posts -->
 {% if site.posts %}
+<hr>
   <h3 style="margin: 12px 0"> Posts </h3>
   {% for page in site.posts %}
     {% unless page.name == '404.md' %}
@@ -25,4 +29,21 @@
       {% endif %}
     {% endunless %}
   {% endfor %}
+{% endif %}
+
+<!-- Tags -->
+{% if site.pages %}
+  <div style="margin-top: 24px">
+  <h3 style="margin: 12px 0"> Tags </h3>
+  {% for page in site.pages %}
+    {% if page.layout == 'tagpage' %}
+      {% if page.title %}
+        <li class='c-nav__item' role='presentation'>
+          <a class='c-nav__link' href='{{ page.url | prepend: site.baseurl }}'
+            style="line-height: 22px; margin-bottom: 8px">{{ page.tag }}</a>
+        </li>
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+</div>
 {% endif %}

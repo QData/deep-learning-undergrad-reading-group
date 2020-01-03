@@ -8,4 +8,3 @@ author: Jack Morris
 notes: week01-recognizing-digits-morris.pdf
 layout: post
 ---
-text description
