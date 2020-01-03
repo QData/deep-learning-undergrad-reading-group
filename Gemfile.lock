@@ -38,6 +38,8 @@ GEM
     jekyll-paginate (1.1.0)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
+    jekyll-tagging (1.1.0)
+      nuggets
     jekyll-watch (1.5.1)
       listen (~> 3.0)
     kramdown (1.17.0)
@@ -47,6 +49,7 @@ GEM
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.3.6)
     multipart-post (2.0.0)
+    nuggets (1.6.0)
     octokit (4.14.0)
       sawyer (~> 0.8.0, >= 0.5.3)
     parslet (1.5.0)
@@ -76,7 +79,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bundler
   jekyll
+  jekyll-paginate
+  jekyll-tagging
 
 BUNDLED WITH
    2.1.2

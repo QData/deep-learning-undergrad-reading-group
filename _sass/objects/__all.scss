@@ -1,0 +1,14 @@
+// *----------------------------------*\
+// Objects
+// *----------------------------------*/
+
+@import 'grid';
+@import 'wrapper';
+@import 'plain-list';
+
+
+// added 1/2/2020 by jm8wx -- for iframe embeddings
+.frame {
+  height: 500px !important;
+  width: 100% !important;
+}
