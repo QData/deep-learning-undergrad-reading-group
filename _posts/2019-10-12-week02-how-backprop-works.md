@@ -4,7 +4,7 @@ subtitle: <i>Neural Networks and Deep Learning</i>, Chapter 2
 hyperlink: http://neuralnetworksanddeeplearning.com/chap2.html
 week: 2
 date: 2019-10-12
-tags: neural-networks neurons
+tags: neural-networks backprop theory
 author: Eli Lifland
 notes: week02-dnn-backprop-lifland.pdf
 layout: post

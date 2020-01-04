@@ -4,7 +4,7 @@ title: "Overview of Deep Learning"
 subtitle: <i>Neural Networks and Deep Learning</i>, Chapter 6
 hyperlink: http://neuralnetworksanddeeplearning.com/chap6.html
 date: 2019-11-10
-tags: neural-networks neurons
+tags: neural-networks cnns rnns lstms
 author: Alan Zheng
 layout: post
 ---

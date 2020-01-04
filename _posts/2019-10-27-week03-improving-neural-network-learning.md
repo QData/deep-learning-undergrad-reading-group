@@ -4,7 +4,7 @@ subtitle: <i>Neural Networks and Deep Learning</i>, Chapter 3
 hyperlink: http://neuralnetworksanddeeplearning.com/chap3.html
 date: 2019-10-27
 week: 3
-tags: neural-networks neurons
+tags: neural-networks optimization
 author: Jeffrey Yoo
 layout: post
 ---

@@ -4,7 +4,7 @@ title: "Training Deep Neural Networks"
 subtitle: <i>Neural Networks and Deep Learning</i>, Chapter 5
 hyperlink: http://neuralnetworksanddeeplearning.com/chap5.html
 date: 2019-11-10
-tags: neural-networks neurons
+tags: neural-networks optimization
 notes: week05-training-dnns-morris.pdf
 author: Jack Morris
 layout: post
