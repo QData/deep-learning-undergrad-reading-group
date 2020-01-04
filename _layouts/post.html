@@ -27,11 +27,15 @@ layout: default
             <div class="u-text-center" style="width: 100%">
               <a href={{ '/notes/' | append: page.notes | relative_url }}
                 style="margin-bottom: 16px">
-                [link to notes]</a>
+                [link to notes]
+              </a>
             </div>
-            <object width="400" height="500" type="application/pdf" data="{{ '/notes/' | append: page.notes | relative_url }}">
-              <p>Error! Looks like your browser can't display PDFs. Try using an updated version of Chrome or Firefox.</p>
-            </object>
+            <!-- hide notes-inline on mobile -->
+            <div class="notes-inline">
+              <object width="400" height="500" type="application/pdf" data="{{ '/notes/' | append: page.notes | relative_url }}">
+                <p>Error! Looks like your browser can't display PDFs. Try using an updated version of Chrome or Firefox.</p>
+              </object>
+            </div>
           {% else %}
             <p><b style="color:#aaa"><i>Whoops!</b>
               We haven't yet uploaded notes for this reading. If you think
@@ -57,3 +61,13 @@ layout: default
     </div>
   </div>
 </div>
+
+<style>
+  /* Hide notes-inline on mobile */
+  @media screen and (max-width: 480px)
+  {
+      .notes-inline {
+        display: none;
+      }
+  }
+</style>
