@@ -16,7 +16,9 @@ layout: default
         <h1 class='c-post__title u-text-center'>{{ page.title }}</h1>
           <div class="u-text-center" style="width: 100%">
             <a href={{page.hyperlink}}
-              style="color: #00A0FF; font-size: 20px">{{page.hyperlink}}</a>
+              style="color: #00A0FF; font-size: 20px; word-wrap: break-word;">
+              {{page.hyperlink}}
+            </a>
           </div>
         <time class='c-post__date' datetime='{{ page.date | date_to_xmlschema }}' itemprop='datePublished'>{{ page.date | date: '%d %b %Y' }}</time>
 
