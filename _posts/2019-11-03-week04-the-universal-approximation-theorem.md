@@ -2,6 +2,7 @@
 title: "The Universal Approximation Theorem"
 subtitle: <i>Neural Networks and Deep Learning</i>, Chapter 4
 hyperlink: http://neuralnetworksanddeeplearning.com/chap4.html
+notes: week04-universal-approximation-theorem-yoo.pdf
 date: 2019-11-03
 week: 4
 tags: neural-networks universal-approximation-theorem theory
