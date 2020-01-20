@@ -3,6 +3,7 @@ week: 6
 title: "Overview of Deep Learning"
 subtitle: <i>Neural Networks and Deep Learning</i>, Chapter 6
 hyperlink: http://neuralnetworksanddeeplearning.com/chap6.html
+notes: week06-deep-learning-cnns-alan-zheng.pdf
 date: 2019-11-10
 tags: neural-networks cnns rnns lstms
 author: Alan Zheng
