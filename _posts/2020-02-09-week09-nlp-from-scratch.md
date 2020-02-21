@@ -3,7 +3,6 @@ week: 9
 title: Natural Language Processing (Almost) from Scratch
 subtitle: JMLR 2011
 hyperlink: http://www.jmlr.org/papers/volume12/collobert11a/collobert11a.pdf
-date: 2020-02-09
 tags: nlp
 notes: week09-nlp-from-scratch.pdf
 author: Jake Grigsby, Kevin Ivey, Eli Lifland, Jack Morris, Yu Yang, Jeffrey Yoo, Alan Zheng

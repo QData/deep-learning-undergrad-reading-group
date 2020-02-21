@@ -3,7 +3,6 @@ week: 8
 title: A Neural Algorithm of Artistic Style
 subtitle: IEEE 2016
 hyperlink: https://arxiv.org/abs/1508.06576
-date: 2020-01-19
 tags: style-transfer cnns art
 notes: week08-style-transfer-morris.pdf
 author: Jack Morris

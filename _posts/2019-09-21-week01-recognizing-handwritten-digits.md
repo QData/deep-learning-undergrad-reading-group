@@ -3,7 +3,6 @@ title: Recognizing Handwritten Digits
 subtitle: <i>Neural Networks and Deep Learning</i>, Chapter 1
 hyperlink: http://neuralnetworksanddeeplearning.com/chap1.html
 week: 1
-date: 2019-09-21
 tags: neural-networks mnist
 author: Jack Morris
 notes: week01-recognizing-digits-morris.pdf
