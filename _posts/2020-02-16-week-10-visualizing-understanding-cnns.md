@@ -3,7 +3,7 @@ week: 10
 title: Visualizing and Understanding Convolutional Networks
 subtitle: ECCV 2014
 hyperlink: https://arxiv.org/abs/1311.2901
-tags: nlp
+tags: cnns explainability
 notes: week10-visualizing-and-understanding-cnns.pdf
 author: Jack Morris
 layout: post
