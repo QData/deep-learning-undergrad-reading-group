@@ -4,6 +4,7 @@ title: How to upload slides to this website
 layout: post
 date: 2020-02-21
 author: Jack Morris
+do_not_index: True
 ---
 
 1. Download your slides as a PDF.

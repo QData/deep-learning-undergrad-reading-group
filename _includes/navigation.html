@@ -3,7 +3,8 @@
 {% if site.pages %}
   <div style="margin-top: 24px">
   {% for page in site.pages %}
-    {% unless page.name == '404.md' or page.layout == 'tagpage' %}
+    {% unless page.name == '404.md' or page.layout == 'tagpage' or
+      page.do_not_index %}
       {% if page.title %}
         <li class='c-nav__item' role='presentation'>
           <a class='c-nav__link' href='{{ page.url | prepend: site.baseurl }}'
