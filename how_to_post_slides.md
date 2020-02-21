@@ -2,11 +2,13 @@
 week: 10
 title: How to upload slides to this website
 layout: post
+date: 2020-02-21
+author: Jack Morris
 ---
 
 1. Download your slides as a PDF.
-  1. In PowerPoint, you can click `File > Export > PDF`.
-  2. In Google Slides, go to `File > Download > PDF Document (.pdf)`.
+    1. In PowerPoint, you can click `File > Export > PDF`.
+    2. In Google Slides, go to `File > Download > PDF Document (.pdf)`.
 2. Rename your slides PDF in the following format: **weekXX-short-paper-title-lastname.pdf**
   (example: **week06-deep-learning-cnns-alan-zheng.pdf**).
 3. [Visit our Github repository online.](https://github.com/QData/deep-learning-undergrad-reading-group) (Alternatively, clone the repo and do all this stuff from the command
@@ -27,6 +29,6 @@ layout: post
   layout: post
   ---
   ```
-7. Below this front matter section, type a paragraph or two describing your reading, and why you think it was important. You can look at past posts for some inspiration. 
+7. Below this front matter section, type a paragraph or two describing your reading, and why you think it was important. You can look at past posts for some inspiration.
 8. Add your post to the **_posts** folder. That's it! Your content should
   propagate and appear on the main site within a minute or so.
