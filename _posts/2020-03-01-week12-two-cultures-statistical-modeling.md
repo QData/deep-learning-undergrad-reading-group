@@ -1,6 +1,6 @@
 ---
 week: 12
-title: Statistical Modeling: The Two Cultures
+title: Statistical Modeling- The Two Cultures
 subtitle: ECCV 2014
 hyperlink: http://www2.math.uu.se/~thulin/mm/breiman.pdf
 tags: statistics
