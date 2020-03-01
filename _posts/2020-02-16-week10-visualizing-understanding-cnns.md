@@ -4,7 +4,7 @@ title: Visualizing and Understanding Convolutional Networks
 subtitle: ECCV 2014
 hyperlink: https://arxiv.org/abs/1311.2901
 tags: cnns explainability
-notes: week10-visualizing-and-understanding-cnns.pdf
+notes: week10-visualizing-and-understanding-cnns-morris.pdf
 author: Jack Morris
 layout: post
 ---
