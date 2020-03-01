@@ -4,7 +4,7 @@ title: Statistical Modeling- The Two Cultures
 subtitle: Statistical Science, Vol. 16, No. 3 (Aug., 2001)
 hyperlink: http://www2.math.uu.se/~thulin/mm/breiman.pdf
 tags: statistics
-notes: week12-statistical-modeling-two-cultures.pdf
+notes: week12-statistical-modeling-two-cultures-morris.pdf
 author: Jack Morris
 layout: post
 ---
