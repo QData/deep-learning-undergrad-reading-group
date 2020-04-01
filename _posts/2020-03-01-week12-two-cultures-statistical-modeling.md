@@ -1,6 +1,6 @@
 ---
 week: 12
-title: Statistical Modeling- The Two Cultures
+title: 'Statistical Modeling: The Two Cultures'
 subtitle: Statistical Science, Vol. 16, No. 3 (Aug., 2001)
 hyperlink: http://www2.math.uu.se/~thulin/mm/breiman.pdf
 tags: statistics
